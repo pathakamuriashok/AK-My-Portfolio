@@ -3,10 +3,11 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
      
-     
-      <packages>
-            <package name="MyPortfolio.index.html"/>
-        </packages>  
+       <classes>
+          <class name="MyPortfolio.RunIndexfile"/>
+    </classes> 
+    
+   
   </test> <!-- Test -->
       
 </suite> <!-- Suite -->
